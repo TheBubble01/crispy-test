@@ -4,7 +4,7 @@ files_list=$(ls)
 for file in $files_list:
 do
 	git add "$file"
-	git commit -m "$file | cut -d '-' -f2"
+	git commit -m "$file"
 	git push
 done
 
