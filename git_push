@@ -16,6 +16,8 @@ echo "Total commited: $files files"
 
 #To take care of deleted and hidden files:
 
+"""
 git add .
 git commit -m "New comm"
 git push
+"""
