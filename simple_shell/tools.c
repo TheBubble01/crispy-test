@@ -30,7 +30,7 @@ char *_getenv(char *path_name)
 }
 /**
  * signal_handler - handle the process interpret signal
- * @signo: the signal identifier
+ * @signa: the signal identifier
  *
  * Return: void
  */
